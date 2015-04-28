@@ -1,11 +1,11 @@
 {
   "name": "wrigley",
   "version": "0.0.1",
-  "description": "host and organize static local multi-media file",
+  "description": "host and present static local multi-media file",
   "main": "./lib/wrigley",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ulyssesjason/clean_blog.git"
+    "url": "https://github.com/ulyssesjason/wrigley.git"
   },
   "keywords": [
     "clean blog",
@@ -14,9 +14,9 @@
   "author": "Jieping Lu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ulyssesjason/clean_blog/issues"
+    "url": "https://github.com/ulyssesjason/wrigley/issues"
   },
-  "homepage": "https://github.com/ulyssesjason/clean_blog",
+  "homepage": "https://github.com/ulyssesjason/wrigley",
   "scripts": {
     "start": "node ./bin/wrigley"
   },
