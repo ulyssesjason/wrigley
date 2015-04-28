@@ -1,0 +1,26 @@
+{
+  "name": "wrigley",
+  "version": "0.0.1",
+  "main": "server.js",
+  "keywords": [
+    "blog"
+  ],
+  "authors": [
+    "Jieping Lu"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1.11.0",
+    "bootstrap": "~3.3.1",
+    "angularjs": "~1.2.28",
+    "angular-bootstrap": "~0.12.1",
+    "angular-ui-router": "~0.2.14"
+  }
+}

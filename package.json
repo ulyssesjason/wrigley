@@ -1,0 +1,34 @@
+{
+  "name": "wrigley",
+  "version": "0.0.1",
+  "description": "host and organize static local multi-media file",
+  "main": "./lib/wrigley",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ulyssesjason/clean_blog.git"
+  },
+  "keywords": [
+    "clean blog",
+    "blog"
+  ],
+  "author": "Jieping Lu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ulyssesjason/clean_blog/issues"
+  },
+  "homepage": "https://github.com/ulyssesjason/clean_blog",
+  "scripts": {
+    "start": "node ./bin/wrigley"
+  },
+  "dependencies" : {
+    "findit"    : "~2.0.0",
+    "body-parser": "~1.5.2",
+    "bower"      : "~1.3.12",
+    "ecstatic": "~0.7.0",
+    "express"    : "~4.7.2",
+    "morgan"     : "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2",
+    "colors": "~1.0.3"
+  }
+}
