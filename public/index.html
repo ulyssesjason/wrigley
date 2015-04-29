@@ -66,12 +66,8 @@
 		<div ng-controller="ImageController">
 		  <div style="height: auto">
 		    <carousel>
-		      <slide ng-repeat="image in images" active="image.active">
-		        <video ng-src="{{image.address}}" height="600" style="margin:auto;" controls>
-		        <div class="carousel-caption">
-		          <h4>Slide {{image.index}}</h4>
-		          <p>{{image.name}}</p>
-		        </div>
+		      <slide ng-repeat="image in images">
+		        <image ng-src="{{image.address}}"  style="margin:auto;">
 		      </slide>
 		    </carousel>
 		  </div>			

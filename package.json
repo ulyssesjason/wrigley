@@ -1,6 +1,6 @@
 {
   "name": "wrigley",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "host and present static local multi-media file",
   "main": "./lib/wrigley",
   "repository": {
@@ -19,6 +19,9 @@
   "homepage": "https://github.com/ulyssesjason/wrigley",
   "scripts": {
     "start": "node ./bin/wrigley"
+  },
+  "bin": {
+    "wrigley": "./bin/wrigley"
   },
   "dependencies" : {
     "findit"    : "~2.0.0",
